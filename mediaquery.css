@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px){
+    body{
+        background-color: rgb(186, 195, 216);
+    }
+
+    
+
+    .menu-wrapper{
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .menu:last-child{
+        grid-column: 2/4;
+    }
+
+    .snacks-wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .snacks:last-child{
+        grid-column: 3/4;
+    }
+
+    .review-wrapper {
+        grid-template-areas: 
+        "review1 review2"
+        "review3 review3";
+      }
+
+   
+  
+
+
+
+
+}
+
+@media only screen and (min-width: 992px){
+    body{
+       
+        
+        
+    }
+
+    
+}
